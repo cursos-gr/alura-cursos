@@ -1,6 +1,6 @@
 # <p align="center"> Alura Cursos 🎈</p> 
 
-### <div align="center"><code> Central de projetos dos cursos desenvolvidos na Alura durante meu 2° ano no ensino técnico em ADS </code></div>
+### <div align="center"><code> Central de projetos dos cursos desenvolvidos na Alura durante meu 2° ano no ensino Técnico em ADS </code></div>
 
 <table align="center">
   <tbody>
