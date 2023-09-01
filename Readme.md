@@ -43,7 +43,7 @@
       <td style="font-weight: bold"><code><a href="https://github.com/guidsribeiro/alura-cursos/tree/js">/js</a></code></td>
       <td><code>Um curso mais intensivo e aprofundando no JavaScript e suas funções, variáveis, loops, forms e até entrando em AJAX</code></td>
       <td>
-        <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer"><code>Javascript</code></a> -
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer"><code>JavaScript</code></a> -
         <a href="https://developer.mozilla.org/pt-BR/docs/Web/Guide/AJAX/" target="_blank" rel="noopener noreferrer"><code>AJAX</code></a>
       </td>
     </tr>
