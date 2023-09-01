@@ -1,36 +1,14 @@
-# <p align="center"> Alura Cursos 🎈</p> 
+# <p align="center"> Barbearia Alura ✂</p> 
 
-### <div align="center"><code> Central de projetos dos cursos desenvolvidos na Alura durante meu 2° ano no ensino Técnico em ADS </code></div>
+### <div align="center"><code> Projeto em HTML5 e CSS3 desenvolvido no curso da Alura de <a href="https://cursos.alura.com.br/course/html5-css3-primeiros-passos">HTML e CSS: partes 1, 2, 3 e 4</a></code></div>
 
+<div align="center">
+    <b><a href="https://guidsribeiro.github.io/barbearia-alura/index.html">Site onde o Projeto é Carregado!</a></b>
+</div>
 
 -------------------------------------------------------------------------------------------------------------------------------------------
+![image](https://github.com/guidsribeiro/barbearia-alura/assets/61317250/5888d96e-a72d-40e5-a522-1bd2a5962fa3)
 
-<table align="center">
-  <tbody>
-    <tr>
-      <td style="font-weight: bold"><code><a href="https://github.com/guidsribeiro/alura-cursos/tree/html-css">/html-css</a></code></td>
-      <td><code>Aprendendo desde o 0 até o conhecimento mais comum do HTML5 e CSS3</code></td>
-      <td>
-        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank" rel="noopener noreferrer"><code>HTML</code></a> -
-        <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank" rel="noopener noreferrer"><code>CSS</code></a>
-      </td>
-    <tr>
-      <td style="font-weight: bold"><code><a href="https://github.com/guidsribeiro/alura-cursos/tree/javascript-introducao">/javascript-introducao</a></code></td>
-      <td><code>Uma introdução básica ao JavaScript e sua sintáxe</code></td>
-      <td>
-        <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer"><code>JavaScript</code></a>
-      </td>
-    </tr>
-    <tr>
-      <td style="font-weight: bold"><code><a href="https://github.com/guidsribeiro/alura-cursos/tree/js">/js</a></code></td>
-      <td><code>Um curso mais intensivo e aprofundando no JavaScript e suas funções, variáveis, loops, forms e até entrando em AJAX</code></td>
-      <td>
-        <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer"><code>Javascript</code></a> -
-        <a href="https://developer.mozilla.org/pt-BR/docs/Web/Guide/AJAX/" target="_blank" rel="noopener noreferrer"><code>AJAX</code></a>
-      </td>
-    </tr>
-  </tbody>
-</table>
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 
