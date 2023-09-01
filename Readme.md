@@ -2,6 +2,9 @@
 
 ### <div align="center"><code> Central de projetos dos cursos desenvolvidos na Alura durante meu 2° ano no ensino Técnico em ADS </code></div>
 
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
 <table align="center">
   <tbody>
     <tr>
