@@ -10,7 +10,35 @@
 ![image](https://github.com/guidsribeiro/alura-javascript/assets/61317250/161a148e-7081-45f0-b8e7-003c2de3b49b)
 
 
+# <h4 align="center">_\__\__\__\__\__\__\__\__/ Navegação 🧭\\_\__\__\__\__\__\__\__\__</p> 
+-------------------------------------------------------------------------------------------------------------------------------------------
 
+<table align="center">
+  <tbody>
+    <tr>
+      <td style="font-weight: bold"><code><a href="https://github.com/guidsribeiro/alura-cursos/tree/html-css">/html-css</a></code></td>
+      <td><code>Aprendendo desde o 0 até o conhecimento mais comum do HTML5 e CSS3</code></td>
+      <td>
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank" rel="noopener noreferrer"><code>HTML</code></a> -
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank" rel="noopener noreferrer"><code>CSS</code></a>
+      </td>
+    <tr>
+      <td style="font-weight: bold"><code><a href="https://github.com/guidsribeiro/alura-cursos/tree/javascript-introducao">/javascript-introducao</a></code></td>
+      <td><code>Uma introdução básica ao JavaScript e sua sintáxe</code></td>
+      <td>
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer"><code>JavaScript</code></a>
+      </td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold"><code><a href="https://github.com/guidsribeiro/alura-cursos/tree/js">/js</a></code></td>
+      <td><code>Um curso mais intensivo e aprofundando no JavaScript e suas funções, variáveis, loops, forms e até entrando em AJAX</code></td>
+      <td>
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer"><code>Javascript</code></a> -
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/Guide/AJAX/" target="_blank" rel="noopener noreferrer"><code>AJAX</code></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 
