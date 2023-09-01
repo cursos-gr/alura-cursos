@@ -20,7 +20,8 @@
       <td><code>Uma introdução básica ao HTML5 e CSS3 e suas sintáxes</code></td>
       <td>
         <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank" rel="noopener noreferrer"><code>HTML</code></a> -
-        <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank" rel="noopener noreferrer"><code>CSS</code></a>
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank" rel="noopener noreferrer"><code>CSS</code></a> -
+        <a href="https://guidsribeiro.github.io/barbearia-alura/" target="_blank" rel="noopener noreferrer"><code>WebSite</code></a>
       </td>
     </tr>
     <tr>
