@@ -92,7 +92,7 @@ function validaPaciente(paciente) {
     if (paciente.idade <= 0) {
         erros.push("A idade não pode ser em branco ou números negativos");
     }
-    if (paciente.esporte.length <= 0) {
+    if (paciente.esporte == "Selecione sim ou não") {
         erros.push("Se pratica esporte não pode ser em branco");
     }
 
