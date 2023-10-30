@@ -134,7 +134,7 @@ header {
 	background-color: #333;
 	height: 6em;
 	color: #EEE;
-	margin-bottom: 1em;
+	margin-bottom: -1em;
 }
 
 header h1 {
@@ -176,16 +176,16 @@ header .container:before {
 
 .container {
 	float: right;
-	width: 45%;
-	height: 100%;
-	margin-right: 63px;
+   	width: 51%;
+    	height: 100%;
+    	margin-right: 25px;
 }
 
 .container-2 {
 	float: right;
-	width: 45%;
-	height: 100%;
-	margin-right: 65px;
+    	width: 45%;
+    	height: 100%;
+    	margin-right: 26px;
 }
 
 .container-tabela {
