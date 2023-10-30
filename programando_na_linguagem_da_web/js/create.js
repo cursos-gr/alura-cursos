@@ -61,29 +61,37 @@ function montaTd(dado, classe) {
     return td;
 }
 
+function validaNumero(valor) {
+    if (typeof(valor) == 'string') {
+        return true;
+    } else {
+        return false;
+    }
+}
+
 function validaPaciente(paciente) {
 
     var erros = [];
 
-    if (paciente.nome.length == 0) {
+    if (paciente.nome.length <= 0) {
         erros.push("O nome não pode ser em branco");
     }
 
-    if (paciente.gordura.length == 0) {
+    if (paciente.gordura.length <= 0) {
         erros.push("A gordura não pode ser em branco");
     }
 
-    if (paciente.peso.length == 0) {
+    if (paciente.peso.length <= 0 ) {
         erros.push("O peso não pode ser em branco");
     }
 
-    if (paciente.altura.length == 0) {
+    if (paciente.altura.length <= 0) {
         erros.push("A altura não pode ser em branco");
     }
-    if (paciente.idade.length == 0) {
+    if (paciente.idade.length <= 0) {
         erros.push("A idade não pode ser em branco");
     }
-    if (paciente.esporte.length == 0) {
+    if (paciente.esporte.length <= 0) {
         erros.push("Se pratica esporte não pode ser em branco");
     }
 
@@ -93,6 +101,14 @@ function validaPaciente(paciente) {
 
     if (!validaAltura(paciente.altura)) {
         erros.push("Altura é inválida (Utilize .)");
+    }
+
+    if (!validaNumero(paciente.idade)) {
+        erros.push("Idade é inválida (Não é aceito letras ou números negativos)")
+    }
+
+    if (!validaNumero(paciente.gordura)) {
+        erros.push("Gordura é inválida (Não é aceito letras ou números negativos)")
     }
 
     return erros;
