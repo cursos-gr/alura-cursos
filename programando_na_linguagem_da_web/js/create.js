@@ -88,11 +88,11 @@ function validaPaciente(paciente) {
     }
 
     if (!validaPeso(paciente.peso)) {
-        erros.push("Peso é inválido (Utilize .)");
+        erros.push("Peso é inválido (Não é aceito letra ou número negativos)");
     }
 
     if (!validaAltura(paciente.altura)) {
-        erros.push("Altura é inválida (Não é aceito letra ou número negativos)");
+        erros.push("Altura é inválida (Utilize .)");
     }
 
     return erros;
