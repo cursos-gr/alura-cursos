@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Aparecida Nutricionista | Painel de Controle</title>
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<!--
+	alguns códigos de css foram utilizados do bootstrap 4.3.1
+	-->
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+
+</head>
+
+<body>
+	<div id="background">
+		<header>
+			<h2 class="titulo">Aparecida Nutricionista</h2>
+		</header>
+		<main>
+			<section class="container">
+				<h2>Meus pacientes</h2>
+				<label for="filtrar-tabela">Filtre:</label>
+				<input type="text" name="filtro" id="filtrar-tabela" placeholder="Digite o nome do paciente"
+					class="form-control">
+				<div class="table-responsive">
+
+					<table class="container-tabela table table-striped custom-table">
+						<thead>
+							<tr>
+								<th>Nome</th>
+								<th>Peso(kg)</th>
+								<th>Altura(m)</th>
+								<th>Gordura Corporal<br>(%)</th>
+								<th>IMC</th>
+								<th>Idade</th>
+								<th>Pratica Esporte</th>
+							</tr>
+						</thead>
+						<tbody id="tabela-pacientes">
+							<tr class="paciente" id="primeiro-paciente">
+								<td class="info-nome">Paulo</td>
+								<td class="info-peso">100</td>
+								<td class="info-altura">2.00</td>
+								<td class="info-gordura">10</td>
+								<td class="info-imc">0</td>
+								<td class="info-idade">48</td>
+								<td class="info-pratica-esporte">Não</td>
+							</tr>
+
+							<tr class="paciente">
+								<td class="info-nome">João</td>
+								<td class="info-peso">80</td>
+								<td class="info-altura">1.72</td>
+								<td class="info-gordura">40</td>
+								<td class="info-imc">0</td>
+								<td class="info-idade">39</td>
+								<td class="info-pratica-esporte">Não</td>
+							</tr>
+
+							<tr class="paciente">
+								<td class="info-nome">Erica</td>
+								<td class="info-peso">54</td>
+								<td class="info-altura">1.64</td>
+								<td class="info-gordura">14</td>
+								<td class="info-imc">0</td>
+								<td class="info-idade">33</td>
+								<td class="info-pratica-esporte">Sim</td>
+							</tr>
+
+							<tr class="paciente">
+								<td class="info-nome">Douglas</td>
+								<td class="info-peso">85</td>
+								<td class="info-altura">1.73</td>
+								<td class="info-gordura">24</td>
+								<td class="info-imc">0</td>
+								<td class="info-idade">46</td>
+								<td class="info-pratica-esporte">Não</td>
+							</tr>
+							<tr class="paciente">
+								<td class="info-nome">Tatiana</td>
+								<td class="info-peso">46</td>
+								<td class="info-altura">1.55</td>
+								<td class="info-gordura">19</td>
+								<td class="info-imc">0</td>
+								<td class="info-idade">25</td>
+								<td class="info-pratica-esporte">Sim</td>
+							</tr>
+							<!-- 1º paciente a mais -->
+							<tr class="paciente">
+								<td class="info-nome">Erickson</td>
+								<td class="info-peso">77</td>
+								<td class="info-altura">1.73</td>
+								<td class="info-gordura">11</td>
+								<td class="info-imc">0</td>
+								<td class="info-idade">24</td>
+								<td class="info-pratica-esporte">Não</td>
+							</tr>
+							<!-- 2º paciente a mais -->
+							<tr class="paciente">
+								<td class="info-nome">Jade</td>
+								<td class="info-peso">57</td>
+								<td class="info-altura">1.64</td>
+								<td class="info-gordura">9</td>
+								<td class="info-imc">0</td>
+								<td class="info-idade">19</td>
+								<td class="info-pratica-esporte">Sim</td>
+							</tr>
+							<!-- 3º paciente a mais -->
+							<tr class="paciente">
+								<td class="info-nome">Janaina</td>
+								<td class="info-peso">60</td>
+								<td class="info-altura">1.66</td>
+								<td class="info-gordura">8</td>
+								<td class="info-imc">0</td>
+								<td class="info-idade">17</td>
+								<td class="info-pratica-esporte">Sim</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<span id="erro-ajax" class="invisivel">Erro ao buscar os pacientes</span>
+
+			</section>
+		</main>
+
+		<section class="container-2">
+			<h2 id="titulo-form">Adicionar novo paciente</h2>
+			<ul id="mensagens-erro"></ul>
+			<form id="form-adiciona">
+				<div class="">
+					<label for="nome">Nome:</label>
+					<input id="nome" name="nome" type="text" placeholder="Digite o nome do seu paciente"
+						class="campo form-control">
+				</div>
+				<div class="grupo">
+					<label for="peso">Peso:</label>
+					<input id="peso" name="peso" type="text" placeholder="Digite o peso de seu paciente"
+						class="campo campo-medio form-control">
+				</div>
+				<div class="grupo">
+					<label for="altura">Altura:</label>
+					<input id="altura" name="altura" type="text" placeholder="Digite a altura de seu paciente"
+						class="campo campo-medio form-control">
+				</div>
+				<div class="grupo">
+					<label for="gordura">% de Gordura:</label>
+					<input id="gordura" type="text" placeholder="Digite a % de gordura de seu paciente"
+						class="campo campo-medio form-control">
+				</div>
+				<div class="grupo">
+					<label for="idade">Idade:</label>
+					<input id="idade" type="text" placeholder="Digite a idade de seu paciente"
+						class="campo campo-medio form-control">
+				</div>
+				<div class="grupo">
+					<label for="esporte">Pratica Esporte?</label>
+					<select id="esporte" class="form-select">
+						<option selected>Selecione sim ou não</option>
+						<option>Sim</option>
+						<option>Não</option>
+					</select>
+				</div>
+
+				<button id="adicionar-paciente" class="btn btn-primary">Adicionar</button>
+			</form>
+		</section>
+	</div>
+
+
+	<script src="js/create.js"></script>
+	<script src="js/calc-imc.js"></script>
+	<script src="js/get.js"></script>
+	<script src="js/remove.js"></script>
+	<script src="js/filter.js"></script>
+
+</body>
+
+</html>

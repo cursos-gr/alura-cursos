@@ -1,6 +1,7 @@
 # <p align="center"> Alura: JavaScript 🟨</p> 
 
-### <div align="center"><code> Projeto em JavaScript desenvolvido no curso da Alura de <a href="https://cursos.alura.com.br/course/javascript-programando-na-linguagem-web">JavaScript: programando na linguagem da web</a></code></div>
+### <div align="center"><code> Projeto em JavaScript desenvolvido no curso da Alura de <a href="https://cursos.alura.com.br/course/javascript-programando-na-linguagem-web">JavaScript: programando na linguagem da web</a> e </code></div>
+### <div align="center"><code> <a href="https://cursos.alura.com.br/course/fundamentos-javascript-tipos-variaveis-funcoes">JavaScript: tipos, variáveis e funções</a> </code></div>
 
 <div align="center">
     <b><a href="https://guidsribeiro.github.io/alura-js/">Site onde o Projeto é Carregado!</a></b>
