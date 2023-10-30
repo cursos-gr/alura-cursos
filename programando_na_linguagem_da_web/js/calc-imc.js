@@ -56,7 +56,7 @@ function validaPeso(peso) {
 
 function validaAltura(altura) {
 
-    if (altura >= 0 && altura <= 3.00) {
+    if (altura >= 0 && altura <= 3.00 || typeof(altura) == 'string') {
         return true;
     } else {
         return false;

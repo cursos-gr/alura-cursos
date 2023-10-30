@@ -73,42 +73,43 @@ function validaPaciente(paciente) {
 
     var erros = [];
 
+    // leves alterações nas verificações de valores feitas por mim e não estão no curso
     if (paciente.nome.length <= 0) {
         erros.push("O nome não pode ser em branco");
     }
 
-    if (paciente.gordura.length <= 0) {
-        erros.push("A gordura não pode ser em branco");
+    if (paciente.gordura <= 0) {
+        erros.push("A gordura não pode ser em branco ou números negativos");
     }
 
-    if (paciente.peso.length <= 0 ) {
-        erros.push("O peso não pode ser em branco");
+    if (paciente.peso <= 0 ) {
+        erros.push("O peso não pode ser em branco ou números negativos");
     }
 
-    if (paciente.altura.length <= 0) {
-        erros.push("A altura não pode ser em branco");
+    if (paciente.altura <= 0) {
+        erros.push("A altura não pode ser em branco ou números negativos");
     }
-    if (paciente.idade.length <= 0) {
-        erros.push("A idade não pode ser em branco");
+    if (paciente.idade <= 0) {
+        erros.push("A idade não pode ser em branco ou números negativos");
     }
     if (paciente.esporte.length <= 0) {
         erros.push("Se pratica esporte não pode ser em branco");
     }
 
     if (!validaPeso(paciente.peso)) {
-        erros.push("Peso é inválido (Não é aceito letra ou número negativos)");
+        erros.push("Peso é inválido (Não é aceito letra)");
     }
 
     if (!validaAltura(paciente.altura)) {
-        erros.push("Altura é inválida (Utilize .)");
+        erros.push("Altura é inválida (Não é aceito letras. Utilize .)");
     }
 
     if (!validaNumero(paciente.idade)) {
-        erros.push("Idade é inválida (Não é aceito letras ou números negativos)")
+        erros.push("Idade é inválida (Não é aceito letras)")
     }
 
     if (!validaNumero(paciente.gordura)) {
-        erros.push("Gordura é inválida (Não é aceito letras ou números negativos)")
+        erros.push("Gordura é inválida (Não é aceito letras)")
     }
 
     return erros;
