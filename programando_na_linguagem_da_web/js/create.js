@@ -32,9 +32,7 @@ function obtemPacienteDoFormulario(form) {
         gordura: form.gordura.value,
         imc: calculaImc(form.peso.value, form.altura.value),
         idade: form.idade.value,
-        estadoCivil: form.civil.value,
-        telefone: form.telefone.value,
-        email: form.email.value
+        estadoCivil: form.civil.value
     }
 
     return paciente;

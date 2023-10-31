@@ -27,16 +27,17 @@ header .container:before {
 
 .container {
 	float: right;
-	width: 51%;
+	width: 47%;
 	height: 100%;
-	margin-right: 15px;
+	margin-right: 72px;
 }
 
 .container-2 {
 	float: right;
-	width: 45%;
+	width: 37%;
 	height: 100%;
-	margin-right: 40px;
+	margin-right: 78px;
+	margin-bottom: 0px;
 }
 
 .container-tabela {
@@ -86,7 +87,7 @@ header .container:before {
 
 #mensagens-erro>li {
 	color: red;
-	font-size: 15px;
+	font-size: 10px;
 }
 
 .fadeOut {
@@ -105,11 +106,13 @@ header .container:before {
 }
 
 div#background {
-	background-image: url("../img/banner.svg");
-	opacity: 0.1;
-	margin: 0 auto -800px;
-	padding: 10%;
-	display: inline-block;
-	width: 100%;
-	height: 30%;
+	background-image: url(../img/banner.svg);
+    background-repeat: no-repeat;
+    opacity: 1.2;
+    margin-left: 16px;
+    margin-top: -30px;
+    padding: 53%;
+    padding-right: 0;
+    padding-bottom: 0;
+    display: inline-block;
 }
