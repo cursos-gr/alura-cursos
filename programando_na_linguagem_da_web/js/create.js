@@ -32,7 +32,9 @@ function obtemPacienteDoFormulario(form) {
         gordura: form.gordura.value,
         imc: calculaImc(form.peso.value, form.altura.value),
         idade: form.idade.value,
-        esporte: form.esporte.value
+        estadoCivil: form.civil.value,
+        telefone: form.telefone.value,
+        email: form.email.value
     }
 
     return paciente;
@@ -48,7 +50,7 @@ function montaTr(paciente) {
     pacienteTr.appendChild(montaTd(paciente.gordura, "info-gordura"));
     pacienteTr.appendChild(montaTd(paciente.imc, "info-imc"));
     pacienteTr.appendChild(montaTd(paciente.idade, "info-idade"));
-    pacienteTr.appendChild(montaTd(paciente.esporte, "info-esporte"));
+    pacienteTr.appendChild(montaTd(paciente.estadoCivil, "info-civil"));
 
     return pacienteTr;
 }
@@ -92,8 +94,8 @@ function validaPaciente(paciente) {
     if (paciente.idade <= 0) {
         erros.push("A idade não pode ser em branco ou números negativos");
     }
-    if (paciente.esporte == "Selecione sim ou não") {
-        erros.push("Se pratica esporte não pode ser em branco");
+    if (paciente.estadoCivil == "Selecione uma das opções") {
+        erros.push("O estado civil não pode ser em branco");
     }
 
     if (!validaPeso(paciente.peso)) {
